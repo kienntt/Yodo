@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Demo Chat</title>
+
+  <script src="jquery.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="xuly.js"></script>
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+    <div id="loginForm">
+      <h3>WHAT'S YOUR NAME?</h3>
+      <input type="text" id="txtUsername" />
+      <input type="button" value="Register" id="btnRegister" />
+    </div>
+
+    <div id="chatForm">
+
+      <div>
+        <div id="sayHi">
+          Hello <span id="currentUser">Teo</span>
+          <input type="button" id="btnLogout" value="Logout">
+        </div>
+
+        <div id="listMessages">
+        </div>
+
+        <div id="thongbao"></div>
+
+        <input type="text" id="txtMessage" />
+        <input type="button" id="btnSendMessage" value="Send" />
+
+
+
+      </div>
+    </div>
+
+  </div>
+  <script>
+    $(document).ready(function () {
+      $('#txtMessage').keypress(function (e) {
+        if (e.keyCode == 13)
+          $('#btnSendMessage').click();
+
+      });
+    });
+  </script>
+</body>
+
+</html>

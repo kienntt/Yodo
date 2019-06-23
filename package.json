@@ -1,0 +1,38 @@
+{
+  "name": "demochatsocketio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@k3rn31p4nic/google-translate-api": "^1.0.5",
+    "array-flatten": "^2.1.2",
+    "content-disposition": "^0.5.3",
+    "content-type": "^1.0.4",
+    "cookie-signature": "^1.1.0",
+    "depd": "^2.0.0",
+    "destroy": "^1.0.4",
+    "ejs": "^2.6.2",
+    "etag": "^1.8.1",
+    "expressjs": "^1.0.1",
+    "finalhandler": "^1.1.2",
+    "fresh": "^0.5.2",
+    "google-translate-api": "^2.3.0",
+    "http-errors": "^1.7.2",
+    "merge-descriptors": "^1.0.1",
+    "methods": "^1.1.2",
+    "path-to-regexp": "^3.0.0",
+    "proxy-addr": "^2.0.5",
+    "qs": "^6.7.0",
+    "range-parser": "^1.2.1",
+    "setprototypeof": "^1.1.1",
+    "socket.io": "^2.2.0",
+    "type-is": "^1.6.18",
+    "utils-merge": "^1.0.1",
+    "vary": "^1.1.2"
+  }
+}
