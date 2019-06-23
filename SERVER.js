@@ -6,7 +6,7 @@ app.set("views", "./views");
 const translate = require('@k3rn31p4nic/google-translate-api');
 var server = require("http").Server(app);
 var io = require("socket.io")(server);
-server.listen(3000);
+server.listen(process.env.PORT || 3000);
 
 var mangUsers=[];
 
