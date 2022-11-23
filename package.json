@@ -30,7 +30,7 @@
     "qs": "^6.7.0",
     "range-parser": "^1.2.1",
     "setprototypeof": "^1.1.1",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.5.0",
     "type-is": "^1.6.18",
     "utils-merge": "^1.0.1",
     "vary": "^1.1.2"
