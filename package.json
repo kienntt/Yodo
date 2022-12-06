@@ -27,7 +27,7 @@
     "methods": "^1.1.2",
     "path-to-regexp": "^3.0.0",
     "proxy-addr": "^2.0.5",
-    "qs": "^6.7.0",
+    "qs": "^6.7.3",
     "range-parser": "^1.2.1",
     "setprototypeof": "^1.1.1",
     "socket.io": "^2.2.0",
